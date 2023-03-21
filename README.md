@@ -6,6 +6,11 @@ How To Build :
 5. Connect with Cypress and choose e2e and create new folder
 6. Create new file format cypress and nodeJs name "spec.cy.js"
 
+* DONT FORGET TO INPUT THIS code because there are some Class and Data Driven *
+import searchsuburb from "../../support/pageobject/searchsuburb" 
+const searchinputan = require('../../fixtures/search.json')
+  const Search = new searchsuburb()
+
 STEP with write code:
 1. Navigate to https://www.service.nsw.gov.au/  :
 describe('Search', () => {
