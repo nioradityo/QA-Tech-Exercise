@@ -53,5 +53,5 @@ Search.inputlocation(searchinputan.lokasi2)
     cy.get(':nth-child(5) > .location__title').should('contain', 'Rockdale Service Centre')
 
 HOW TO RUN :
-1. Open the terminal and write " npm run test:Search" because the name of describe is "Search"
+1. Open the terminal and write " npm run test:Search" because the name of describe is "Search" or write on the terminal Project " npx cypress run"
 2. Open the Cypress and choose Chrome/Firefox to run the test, and cypress automaticly direct to chorome/firefox to run the testing.
