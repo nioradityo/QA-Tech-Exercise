@@ -54,4 +54,4 @@ Search.inputlocation(searchinputan.lokasi2)
 
 HOW TO RUN :
 1. Open the terminal and write " npm run test:Search" because the name of describe is "Search" or write on the terminal Project " npx cypress run"
-2. Open the Cypress and choose Chrome/Firefox to run the test, and cypress automaticly direct to chorome/firefox to run the testing.
+2. Open the Cypress and choose Chrome/Firefox to run the test, Choose Specs and cypress automaticly direct to chorome/firefox to run the testing.
