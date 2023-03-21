@@ -4,7 +4,7 @@ describe('Search', () => {
   const Search = new searchsuburb()
   it('Sydney 2000', () => {
     cy.visit('https://www.service.nsw.gov.au/')
-    cy.get('#homeautosuggestqkdnfaG2Xvk').type('Apply for a number plate')
+    cy.get('#homeautosuggestKjW7ak1XXhM > .form__text').type('Apply for a number plate')
     cy.get('[data-personalisation-type="default"] > .page-hero > .container > .page-hero__title > .form--hero-search-group > .form__actions > .button').click()
     cy.get('#page-title').should('contain', 'Search')
     cy.get('.MobileButton__menu-Zf6a9LYPkd').click()
@@ -19,7 +19,7 @@ describe('Search', () => {
   })
   it('Sydney Domestic Airport 2020', () => {
     cy.visit('https://www.service.nsw.gov.au/')
-    cy.get('#homeautosuggestqkdnfaG2Xvk').type('Apply for a number plate')
+    cy.get('#homeautosuggestKjW7ak1XXhM > .form__text').type('Apply for a number plate')
     cy.get('[data-personalisation-type="default"] > .page-hero > .container > .page-hero__title > .form--hero-search-group > .form__actions > .button').click()
     cy.get('#page-title').should('contain', 'Search')
     cy.get('.MobileButton__menu-Zf6a9LYPkd').click()
