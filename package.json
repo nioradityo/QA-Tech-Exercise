@@ -1,0 +1,14 @@
+{
+  "name": "project",
+  "version": "1.0.0",
+  "description": "QA Tech Exercise",
+  "main": "index.js",
+  "scripts": {
+    "test:Search": "npx cypress run --spec 'cypress/e2e/3-servicenswdemo/spec.cy.js'"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^12.8.1"
+  }
+}
