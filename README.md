@@ -4,9 +4,10 @@ How To Build :
 3. Create folder Project and Open with VSCode
 4. Create new folder in Project Folder on Cypress
 5. Connect with Cypress and choose e2e and create new folder
-6. Create new file format on e2e cypress and nodeJs name "spec.cy.js"
-7. Create new file on e2e name "searchsuburb.js" for the class
-8. Create new file on fixtures folder name "search.json" for data driven
+6. Create new folder format on e2e name " 3-servicenswdemo "
+7. Create new file on 3-servicenswdemo name "spec.cy.js"
+8. Create new file on 3-servicenswdemo name "searchsuburb.js" for the class
+9. Create new file on fixtures folder name "search.json" for data driven
 
 * DONT FORGET TO INPUT THIS code because there are some Class and Data Driven *
 import searchsuburb from "../../support/pageobject/searchsuburb" 
